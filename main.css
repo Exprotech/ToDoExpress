@@ -154,3 +154,19 @@ main {
 .task .actions .delete {
 	color: crimson;
 }
+
+@media screen and (max-width: 600px) {
+    #new-task-form {
+      flex-direction: column;
+    }
+  
+    #new-task-input {
+      margin-right: 0;
+      margin-bottom: 1rem; /* Add margin below the input for spacing */
+    }
+  
+    #new-task-submit {
+      width: 100%; /* Make the button take the full width */
+    }
+  }
+  
